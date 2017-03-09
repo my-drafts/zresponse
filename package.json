@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,10 @@
   "homepage": "https://github.com/sergej-kucharev/zresponse#readme",
   "dependencies": {
     "http": "0.0.0",
+    "mime": "^1.3.4",
+    "swig": "^1.4.2",
     "util": "^0.10.3",
+    "zfilesystem": "latest",
     "ztype": "latest"
   }
 }
