@@ -1,0 +1,10 @@
+{% extends "./index.html" %}
+<!-- -->
+{% block head %}
+<title>{{title | default('no title')}}</title>
+{% endblock head %}
+<!-- -->
+{% block body %}
+<p>now: {{ now() | datetime('dd-mm-yyyy HH:MM:ss') }}</p>
+{% endblock body %}
+<!-- -->
