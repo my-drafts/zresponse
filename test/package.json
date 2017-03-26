@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "Test directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Sergyi Kukharyev",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "zrequest": "^3.7.0",
+    "ztype": "^2.3.0"
+  }
+}

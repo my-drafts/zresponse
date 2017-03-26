@@ -28,7 +28,7 @@
     "cache": false,
     "encoding": "utf8",
     "locals": {},
-    "rootPath": "test/storage",
+    "rootPath": "storage",
     "timeZone": 3
   }
 }

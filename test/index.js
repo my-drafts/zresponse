@@ -51,12 +51,15 @@ http.createServer(function (request, response) {
 									process.exit(0);
 								}, 1000);
 								return Promise.resolve('close');
+							case '/submit-simple/':
+								res.header('content-Type', 'text/plain');
+								return Promise.resolve(String(req));
 							default:
 								return Promise.reject(404);
 						}
 						break;
 					case 'post':
-            res.header('content-Type', 'text/plain');
+						res.header('content-Type', 'text/plain');
 						switch (req.path) {
 							case '/submit-simple/':
 								return Promise.resolve(String(req));
